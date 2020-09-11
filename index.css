@@ -1,0 +1,64 @@
+header{
+    width: fit-content;
+    margin: auto;
+}
+header>div,h1{
+    /* width: fit-content; */
+    margin:70px 190px 30px;
+    /* display: inline-block; */
+    float: left;
+    
+}
+
+#header1{
+}
+
+#header2{
+    position: relative;
+    bottom: 20px;
+
+}
+#header2-span{
+    position: relative;
+    font-size: 20px;
+    bottom: 25px;
+}
+    
+main{
+    clear: both;
+   
+
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    flex-wrap: wrap;
+}
+#section1>div{
+    float: left;
+    margin: 50px;
+}
+
+#section2>div{
+    float: left;
+    margin: 50px;
+}
+
+img{
+    width: 300px;
+    border-radius: 20px;
+    
+    
+}
+
+
+.container >section>div>span{
+    writing-mode: vertical-lr;
+    vertical-align: top;
+}
+
+  
+
