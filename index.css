@@ -1,100 +1,77 @@
-
-header{
+header {
     width: fit-content;
     margin: 40px auto;
 }
-header>div,h1{
+
+header>div, h1 {
     width: fit-content;
-    margin:70px 120px 30px;
+    margin: 70px 120px 30px;
     display: inline-block;
     float: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#header1{
+
+#header1 {
     margin-bottom: 0;
-
-   
-    
 }
 
-
-
-#header2{
+#header2 {
     /* position: relative; */
     bottom: 20px;
     left: 180px;
-    
-
 }
-#header2-span{
+
+#header2-span {
     position: relative;
     font-size: 21px;
     bottom: 25px;
 }
 
-#contanier{
+#contanier {
+  
     clear: both;
-    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
-    /* background-color: aliceblue; */
-    /* width: 70%; */
-    /* height: 900px; */
-    flex-direction: column;
-    /* border: 1px solid; */
-    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#section1 {
+    
+    width: 1500px;
+    display: inline-flex;
+    margin:  auto;
+    flex-wrap: wrap;
+    justify-content: center;
+   
   
 }
 
-
-
-.box{
-  
-    margin: 40px;
-        
+#section1>div>span {
+    vertical-align: top;
+    writing-mode: vertical-lr;
+    margin-left: 10px;
 }
 
-.box img{
+.box {
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.box img {
     width: 300px;
     border-radius: 10px;
 }
 
-#section1,#section2{
-    display:inline-flex;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    
-}
-
-#section2{
-    margin-top:50px;
-}
-
-#section1>div>span{
-    vertical-align: top;
-    writing-mode: vertical-lr;
-    margin-left: 10px;
-}
-
-#section2>div>span{
-    vertical-align: top;
-    writing-mode: vertical-lr;
-    margin-left: 10px;
-}
-
-
-.box2,.box5{
+.box2, .box5 {
     position: relative;
     top: 50px;
 }
 
-p{
+p {
     font-size: 25px;
     font-weight: bolder;
     position: relative;
     bottom: 15px;
 }
-
-
-
